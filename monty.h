@@ -77,7 +77,4 @@ void stack_func(stack_t **head, unsigned int counter);
 void add_node(stack_t **head, int n);
 int execute(char *value, stack_t **head, unsigned int counter, FILE *ptr);
 void add_queue(stack_t **head, int n);
-char *_realloc(char *ptr, unsigned int old_size, unsigned int new_size);
-ssize_t getstdin(char **lineptr, int file);
-char  *clean_line(char *content);
 #endif
