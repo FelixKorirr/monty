@@ -61,5 +61,23 @@ void sub_func(stack_t **head, unsigned int x);
 void add_func(stack_t **head, unsigned int x);
 void mul_func(stack_t **head, unsigned int x);
 void mod_func(stack_t **head, unsigned int x);
-
+void push_func(stack_t **head, unsigned int x);
+void pint_func(stack_t **head, unsigned int x);
+void pop_func(stack_t **head, unsigned int x);
+void nop_func(stack_t **head, unsigned int x);
+void swap_func(stack_t **head, unsigned int x);
+void pall_func(stack_t **head, unsigned int x);
+void pchar_func(stack_t **head, unsigned int x);
+void pstr_func(stack_t **head, unsigned int x);
+void free_stack(stack_t *head);
+void rotl_func(stack_t **head, unsigned int x);
+void rotr_func(stack_t **head, __attribute__((unused)) unsigned int x);
+void queue_func(stack_t **head, unsigned int x);
+void stack_func(stack_t **head, unsigned int counter);
+void add_node(stack_t **head, int n);
+int execute(char *value, stack_t **head, unsigned int counter, FILE *ptr);
+void add_queue(stack_t **head, int n);
+char *_realloc(char *ptr, unsigned int old_size, unsigned int new_size);
+ssize_t getstdin(char **lineptr, int file);
+char  *clean_line(char *content);
 #endif
